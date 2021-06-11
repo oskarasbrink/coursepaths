@@ -1,6 +1,6 @@
 import "./App.css";
 import { ArcherContainer, ArcherElement } from "react-archer";
-import Card from "./components/Card";
+
 
 const rootStyle = { display: "flex", justifyContent: "center" };
 const rowStyle = {
@@ -12,7 +12,7 @@ const boxStyle = { padding: "10px", border: "1px solid black" };
 function App() {
   return (
     <div className="w-full p-2  md:p-7 m-5 md:m-2 text-white">
-      <div className="p=24">
+      <div className="p=24 pt-24">
         <ArcherContainer strokeColor="#8c8fe7">
           <div id="1st-row" className="flex justify-evenly">
             <ArcherElement
@@ -30,21 +30,21 @@ function App() {
                 <div className="flex flex-col justify-items-center space-y-4 ">
                   <a
                     className="bg-indigo-400 rounded-md shadow-sm  text-center p-1 pl-5 pr-5"
-                    href="#"
+                    href="https://lamastex.github.io/ScaDaMaLe/000_1-sds-3-x"
                   >
-                    Book
+                    book
                   </a>
                   <a
                     className="bg-indigo-400 rounded-md shadow-sm text-center p-1 pl-5 pr-5"
-                    href="#"
+                    href="https://lamastex.github.io/scalable-data-science/sds/3/x/#000_1-sds-3-x"
                   >
-                    dbc
+                    site
                   </a>
                   <a
                     className="bg-indigo-400 rounded-md shadow-sm  text-center p-1 pl-5 pr-5"
-                    href="#"
+                    href="https://github.com/lamastex/scalable-data-science/raw/master/dbcArchives/2021/000_1-sds-3-x.dbc"
                   >
-                    Book
+                    .dbc
                   </a>
                 </div>
               </div>
@@ -56,34 +56,28 @@ function App() {
                   targetId: "003",
                   targetAnchor: "left",
                   sourceAnchor: "right",
-                  
                 },
                 {
                   targetId: "004",
                   targetAnchor: "top",
                   sourceAnchor: "bottom",
-
                 },
                 {
                   targetId: "005",
                   targetAnchor: "top",
                   sourceAnchor: "bottom",
-
                 },
                 {
                   targetId: "006",
                   targetAnchor: "top",
                   sourceAnchor: "bottom",
-
                 },
                 {
                   targetId: "008",
                   targetAnchor: "top",
                   sourceAnchor: "bottom",
-
-                }
+                },
               ]}
-             
             >
               <div className="flex flex-col p-5 bg-indigo-600 rounded-lg ring ring-indigo-300 ring-offset-2 space-y-6 shadow-lg pl-5 pr-5">
                 <div className="text-lg text-center">002</div>
@@ -138,9 +132,43 @@ function App() {
 
           <div id="2nd-row" className="flex justify-evenly pt-24 pb-24">
             <ArcherElement
-              id="005"
-              
+              id="004"
+              relations={[
+                {
+                  targetId: "009",
+                  targetAnchor: "top",
+                  sourceAnchor: "bottom",
+                  style: { strokeColor: "blue", strokeWidth: 1 },
+                  label: <div style={{ marginTop: "-20px" }}>Arrow 2</div>,
+                },
+              ]}
             >
+              <div className="flex flex-col p-5 bg-indigo-600 rounded-lg ring ring-indigo-300 ring-offset-2 space-y-6 shadow-lg pl-5 pr-5">
+                <div className="text-lg text-center">004</div>
+                <div className="flex flex-col justify-items-center space-y-4 ">
+                  <a
+                    className="bg-indigo-400 rounded-md shadow-sm  text-center p-1 pl-5 pr-5"
+                    href="#"
+                  >
+                    Book
+                  </a>
+                  <a
+                    className="bg-indigo-400 rounded-md shadow-sm text-center p-1 pl-5 pr-5"
+                    href="#"
+                  >
+                    Site
+                  </a>
+                  <a
+                    className="bg-indigo-400 rounded-md shadow-sm  text-center p-1 pl-5 pr-5"
+                    href="#"
+                  >
+                    Dbc
+                  </a>
+                </div>
+              </div>
+            </ArcherElement>
+
+            <ArcherElement id="005">
               <div className="flex flex-col p-5 bg-indigo-600 rounded-lg ring ring-indigo-300 ring-offset-2 space-y-6 shadow-lg pl-5 pr-5">
                 <div className="text-lg text-center">005</div>
                 <div className="flex flex-col justify-items-center space-y-4 ">
@@ -171,8 +199,8 @@ function App() {
               relations={[
                 {
                   targetId: "007",
-                  targetAnchor: "left",
-                  sourceAnchor: "right",
+                  targetAnchor: "top",
+                  sourceAnchor: "bottom",
                   style: { strokeColor: "blue", strokeWidth: 1 },
                   label: <div style={{ marginTop: "-20px" }}>Arrow 2</div>,
                 },
@@ -203,10 +231,7 @@ function App() {
               </div>
             </ArcherElement>
 
-            <ArcherElement
-              id="008"
-              
-            >
+            <ArcherElement id="008">
               <div className="flex flex-col p-5 bg-indigo-600 rounded-lg ring ring-indigo-300 ring-offset-2 space-y-6 shadow-lg pl-5 pr-5">
                 <div className="text-lg text-center">008</div>
                 <div className="flex flex-col justify-items-center space-y-4 ">
@@ -231,10 +256,58 @@ function App() {
                 </div>
               </div>
             </ArcherElement>
-
-            
-
-            
+          </div>
+          <div id="3nd-row" className="flex justify-evenly pt-24 pb-24">
+            <ArcherElement id="007">
+              <div className="flex flex-col p-5 bg-indigo-600 rounded-lg ring ring-indigo-300 ring-offset-2 space-y-6 shadow-lg pl-5 pr-5">
+                <div className="text-lg text-center">007</div>
+                <div className="flex flex-col justify-items-center space-y-4 ">
+                  <a
+                    className="bg-indigo-400 rounded-md shadow-sm  text-center p-1 pl-5 pr-5"
+                    href="#"
+                  >
+                    Book
+                  </a>
+                  <a
+                    className="bg-indigo-400 rounded-md shadow-sm text-center p-1 pl-5 pr-5"
+                    href="#"
+                  >
+                    Site
+                  </a>
+                  <a
+                    className="bg-indigo-400 rounded-md shadow-sm  text-center p-1 pl-5 pr-5"
+                    href="#"
+                  >
+                    Dbc
+                  </a>
+                </div>
+              </div>
+            </ArcherElement>
+            <ArcherElement id="009">
+              <div className="flex flex-col p-5 bg-indigo-600 rounded-lg ring ring-indigo-300 ring-offset-2 space-y-6 shadow-lg pl-5 pr-5">
+                <div className="text-lg text-center">009</div>
+                <div className="flex flex-col justify-items-center space-y-4 ">
+                  <a
+                    className="bg-indigo-400 rounded-md shadow-sm  text-center p-1 pl-5 pr-5"
+                    href="#"
+                  >
+                    Book
+                  </a>
+                  <a
+                    className="bg-indigo-400 rounded-md shadow-sm text-center p-1 pl-5 pr-5"
+                    href="#"
+                  >
+                    Site
+                  </a>
+                  <a
+                    className="bg-indigo-400 rounded-md shadow-sm  text-center p-1 pl-5 pr-5"
+                    href="#"
+                  >
+                    Dbc
+                  </a>
+                </div>
+              </div>
+            </ArcherElement>
           </div>
         </ArcherContainer>
       </div>
