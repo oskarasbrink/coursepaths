@@ -14,11 +14,9 @@ docker exec -it coursepaths /bin/bash
 
 In the project directory, you can run:
 
-### Install via  `npm`
+### `npm i`
 
-```
-npm i
-```
+Install via  `npm`
 
 ### `npm start`
 
