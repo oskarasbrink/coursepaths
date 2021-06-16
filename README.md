@@ -2,13 +2,23 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Docker environment for project
+
+```
+docker build -t lamastex/node14 .
+docker run --rm -d -it --name=coursepaths  --mount type=bind,source=${PWD},destination=/root/GIT -p 3000:3000 lamastex/node14
+docker exec -it coursepaths /bin/bash
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm -i`
+### Install via  `npm`
 
-Install `npm`
+```
+npm i
+```
 
 ### `npm start`
 
