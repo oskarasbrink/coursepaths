@@ -12,6 +12,9 @@ const boxStyle = { padding: "10px", border: "1px solid black" };
 function App() {
   return (
     <div className="w-full p-2  md:p-7 m-5 md:m-2 text-white">
+	  <div className="flex justify-center items-center w-full">
+	  <p className=" mt-10 text-gray-50 text-4xl bg-indigo-400 p-5"><a href="https://lamastex.github.io/scalable-data-science/sds/3/x/">ScaDaMaLe Course Pathways</a></p>
+	  </div>
       <div className="p=24 pt-24">
         <ArcherContainer strokeColor="#8c8fe7">
           <div id="1st-row" className="flex justify-evenly">
