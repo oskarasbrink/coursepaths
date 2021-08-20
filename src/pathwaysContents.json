@@ -1,0 +1,126 @@
+{
+    "allRows": {
+        "1stRow": {
+            "id": "1st-row",
+            "cards": {
+                "1stCard": {
+                    "id": "001",
+                    "connections": [
+                        {
+                            "targetId": "002",
+                            "targetAnchor": "left",
+                            "sourceAnchor": "right"
+                        }
+                    ],
+                    "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_1-sds-3-x",
+                    "siteLink": "https://lamastex.github.io/scalable-data-science/sds/3/x/#000_1-sds-3-x",
+                    "dbcLink": "https://github.com/lamastex/scalable-data-science/raw/master/dbcArchives/2021/000_1-sds-3-x.dbc"
+                },
+                "2ndCard": {
+                    "id": "002",
+                    "connections": [
+                        {
+                            "targetId": "003",
+                            "targetAnchor": "left",
+                            "sourceAnchor": "right"
+                        },
+                        {
+                            "targetId": "004",
+                            "targetAnchor": "top",
+                            "sourceAnchor": "bottom"
+                        },
+                        {
+                            "targetId": "005",
+                            "targetAnchor": "top",
+                            "sourceAnchor": "bottom"
+                        },
+                        {
+                            "targetId": "006",
+                            "targetAnchor": "top",
+                            "sourceAnchor": "bottom"
+                        },
+                        {
+                            "targetId": "008",
+                            "targetAnchor": "top",
+                            "sourceAnchor": "bottom"
+                        }
+                    ],
+                    "bookLink": "#",
+                    "siteLink": "#",
+                    "dbcLink": "#"
+                },
+                "3rdCard": {
+                    "id": "003",
+                    "connections": [],
+                    "bookLink": "#",
+                    "siteLink": "#",
+                    "dbcLink": "#"
+                }
+            }
+        },
+        "2ndRow": {
+            "id": "2nd-row",
+            "cards": {
+                "1stCard": {
+                    "id": "004",
+                    "connections": [
+                        {
+                            "targetId": "009",
+                            "targetAnchor": "top",
+                            "sourceAnchor": "bottom"
+                        }
+                    ],
+                    "bookLink": "#",
+                    "siteLink": "#",
+                    "dbcLink": "#"
+                },
+                "2ndCard": {
+                    "id": "005",
+                    "connections": [],
+                    "bookLink": "#",
+                    "siteLink": "#",
+                    "dbcLink": "#"
+                },
+                "3rdCard": {
+                    "id": "006",
+                    "connections": [
+                        {
+                            "targetId": "007",
+                            "targetAnchor": "top",
+                            "sourceAnchor": "bottom"
+                        }
+                    ],
+                    "bookLink": "#",
+                    "siteLink": "#",
+                    "dbcLink": "#"
+                },
+                "4thCard": {
+                    "id": "008",
+                    "connections": [],
+                    "bookLink": "#",
+                    "siteLink": "#",
+                    "dbcLink": "#"
+                }
+            }
+        },
+        "3rdRow": {
+            "id": "3rd-row",
+            "cards": {
+                "1stCard": {
+                    "id": "007",
+                    "connections": [],
+                    "bookLink": "#",
+                    "siteLink": "#",
+                    "dbcLink": "#"
+                },
+                "2ndCard": {
+                    "id": "009",
+                    "connections": [],
+                    "bookLink": "#",
+                    "siteLink": "#",
+                    "dbcLink": "#"
+                }
+            }
+        }
+    }
+}

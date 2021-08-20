@@ -2,6 +2,49 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Course Pathways Configrations
+
+This app is automated and the changes to the contents can be made using the pathwaysContents.json file.
+
+### pathwaysContents.json
+
+It contains an object that mainly has inside three objects which refers to how many rows there in the website.
+
+The current website has three rows now (each row has some courses cards) and the benefits of the rows is to make the pathways looks clean when connecting courses togather.
+
+For example: you migth need to add a new row if you will add new courses to the pathways and you will do that in case that you feel it is more appropriate than adding the new courses to the current rows.
+
+#### To add a new row
+
+you need just to copy one of the current rows and add it to the json file but then you need to change it's content.
+
+#### The contents of each rows
+
+each row has two objects:
+
+1- the row id (which has to be unique for each row)
+
+2- the cards objects which contains all the cards on the that row (courses)
+
+#### Each card in the cards object
+
+Each card is simply represent course contents:
+
+1- the id and it needs to be unique
+
+2- the connections (which means all the arrows that start from this card to ther cards "not the other way around").. if there is no connections like in the case of the card "008" you leave it as an empty aray.
+
+For example in our case for the first card which is "001" it has a connections array like this :
+"connections": [{"targetId": "002","targetAnchor": "left","sourceAnchor": "right"}],
+
+So the array has only one object "which means only one connection" the arrow start from the first card "001" and it goes to "002" card  and it also specifiy that it will points to the left side of the "002" card and it will start from the right side of the "001" card  (that is a good feature so when connecting the cards with each others to draw the paths you make sure that it looks clean and you can control the paths of the arrows.
+
+3- the book link.
+
+4- the site link.
+
+5- the .dbc link.
+
 ## Docker environment for project
 
 ```
@@ -16,7 +59,7 @@ In the project directory, you can run:
 
 ### `npm i`
 
-Install via  `npm`
+Install via `npm`
 
 ### `npm start`
 
