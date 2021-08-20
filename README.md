@@ -33,10 +33,10 @@ Each card is simply represent course contents:
 1- the id and it needs to be unique
 
 2- the connections (which means all the arrows that start from this card to ther cards "not the other way around").. if there is no connections like in the case of the card "008" you leave it as an empty aray.
-
+```
 For example in our case for the first card which is "001" it has a connections array like this :
 "connections": [{"targetId": "002","targetAnchor": "left","sourceAnchor": "right"}],
-
+```
 So the array has only one object "which means only one connection" the arrow start from the first card "001" and it goes to "002" card  and it also specifiy that it will points to the left side of the "002" card and it will start from the right side of the "001" card  (that is a good feature so when connecting the cards with each others to draw the paths you make sure that it looks clean and you can control the paths of the arrows.
 
 3- the book link.
