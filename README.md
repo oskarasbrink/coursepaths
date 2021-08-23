@@ -49,11 +49,25 @@ So the array has only one object "which means only one connection" the arrow sta
 
 ```
 docker build -t lamastex/node14 .
-docker run --rm -d -it --name=coursepaths  --mount type=bind,source=${PWD},destination=/root/GIT -p 3000:3000 lamastex/node14
+docker run --rm -d -it --name=coursepaths  --mount type=bind,source=${PWD},destination=/root/GIT -p 3000:3000 -p 5000:5000 lamastex/node14
 docker exec -it coursepaths /bin/bash
 ```
 
-## Available Scripts
+## Deploy in a Hurry
+
+To check the static build is ready for web server deployment do:
+
+```
+npm i
+npm start
+npm run build
+npm install -g serve
+serve -s build
+```
+
+If all is okay in `http://localhost:5000/` then copy contents of `build/` into webserver of choice.
+
+## Available Scripts 
 
 In the project directory, you can run:
 
