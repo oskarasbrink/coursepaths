@@ -5,6 +5,7 @@
             "cards": {
                 "1stCard": {
                     "id": "000_1-sds-3-x",
+                    "hover": "Introduction to Scalable Data Science and Distributed Machine Learning. Topics: Apache Spark, Scala, RDD, map reduce, Spark SQL.",
                     "connections": [
                         {
                             "targetId": "002",
@@ -18,6 +19,7 @@
                 },
                 "2ndCard": {
                     "id": "002",
+                    "hover": "",
                     "connections": [
                         {
                             "targetId": "003",
@@ -51,6 +53,7 @@
                 },
                 "3rdCard": {
                     "id": "003",
+                    "hover": "",
                     "connections": [],
                     "bookLink": "#",
                     "siteLink": "#",
@@ -63,6 +66,7 @@
             "cards": {
                 "1stCard": {
                     "id": "004",
+                    "hover": "",
                     "connections": [
                         {
                             "targetId": "009",
@@ -76,6 +80,7 @@
                 },
                 "2ndCard": {
                     "id": "005",
+                    "hover": "",
                     "connections": [],
                     "bookLink": "#",
                     "siteLink": "#",
@@ -83,6 +88,7 @@
                 },
                 "3rdCard": {
                     "id": "006",
+                    "hover": "",
                     "connections": [
                         {
                             "targetId": "007",
@@ -96,6 +102,7 @@
                 },
                 "4thCard": {
                     "id": "008",
+                    "hover": "",
                     "connections": [],
                     "bookLink": "#",
                     "siteLink": "#",
@@ -108,6 +115,7 @@
             "cards": {
                 "1stCard": {
                     "id": "007",
+                    "hover": "",
                     "connections": [],
                     "bookLink": "#",
                     "siteLink": "#",
@@ -115,6 +123,7 @@
                 },
                 "2ndCard": {
                     "id": "009",
+                    "hover": "",
                     "connections": [],
                     "bookLink": "#",
                     "siteLink": "#",

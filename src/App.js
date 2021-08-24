@@ -19,7 +19,7 @@ function App() {
             <div key={index} id={pathways.allRows[row].id} className="flex justify-evenly md:py-24 py-10 ">
               {Object.keys(pathways.allRows[row].cards).map((card, index) => (
                 <ArcherElement key={index} id={pathways.allRows[row].cards[card].id} relations={pathways.allRows[row].cards[card].connections}>
-                  <div className="flex flex-col p-2 md:p-5 bg-gray-600 rounded-lg ring ring-gray-700 ring-offset-2 space-y-6 shadow-lg xl:px-7 md:px-5 px-3">
+                  <div className="flex flex-col p-2 md:p-5 bg-gray-600 rounded-lg ring ring-gray-700 ring-offset-2 space-y-6 shadow-lg xl:px-7 md:px-5 px-3" title={pathways.allRows[row].cards[card].hover}>
                     <div className="text-md md:text-lg text-center">{pathways.allRows[row].cards[card].id}</div>
                     <div className="flex flex-col justify-items-center space-y-4 ">
                       <a
