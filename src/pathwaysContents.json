@@ -130,6 +130,19 @@
                     "dbcLink": "https://github.com/lamastex/scalable-data-science/raw/master/dbcArchives/2021/000_9-sds-3-x-trends.dbc"
                 }
             }
+        },
+        "4thRow": {
+            "id": "4th-row",
+            "cards": {
+                "1stCard": {
+                    "id": "000_0-sds-3-x-projects",
+                    "hover": "22 WASP PhD Student-Group Projects for 2020-2021 instance of ScaDaMaLe. Each project is currently available as a .dbc file that can be loaded into a databricks Workspace from .dbc link here. The pre-requisite for each project is a subset of the above modules 000_1 through 000_9 [book in progress]",
+                    "connections": [],
+                    "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_0-sds-3-x-projects",
+                    "siteLink": "https://lamastex.github.io/scalable-data-science/sds/3/x/#000_0-sds-3-x-projects",
+                    "dbcLink": "https://github.com/lamastex/scalable-data-science/tree/master/dbcArchives/2021/000_0-sds-3-x-projects"
+                }
+            }
         }
     }
 }
