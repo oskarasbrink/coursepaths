@@ -72,10 +72,12 @@ cd /root/GIT/
 npm i
 npm run build  
 npm install -g serve 
-serve -s build  
+serve -s build # static build served at http://localhost:5000/ 
 ```
 
-If all is okay in `http://localhost:3000/` or port `5000` then copy contents of `build/` into webserver of choice.
+After `npm i` above just do `npm run build && npm install -g serve && serve -s build` while iteratively static-building.
+
+If all is okay in `http://localhost:5000/` then copy contents of `build/` into webserver of choice.
 
 ## Available commands in detail 
 
