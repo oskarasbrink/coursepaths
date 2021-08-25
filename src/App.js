@@ -5,7 +5,7 @@ import mix from "./pics/mix.png";
 import aws from "./pics/aws.png";
 import databricks from "./pics/databricks.png";
 import wasp from "./pics/wasp2.png";
-import uu from "./pics/uu2.png";
+import uu from "./pics/uu3.png";
 import lamastex from "./pics/DISP-lamastex-1600x524.jpeg";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
       </div>
 
       <div className="md:p=24 md:pt-24 p-7">
-        <ArcherContainer strokeColor="#9ca3af">
+        <ArcherContainer strokeColor="#B5B5B3">
           {Object.keys(pathways.allRows).map((row, index) => (
             <div
               key={index}
@@ -35,7 +35,7 @@ function App() {
                   relations={pathways.allRows[row].cards[card].connections}
                 >
                   <div
-                    className="flex flex-col p-2 md:p-5 bg-gray-600 rounded-lg ring ring-gray-700 ring-offset-2 space-y-6 shadow-lg xl:px-7 md:px-5 px-3"
+                    className="color flex flex-col p-2 md:p-5  rounded-lg ring ring-gray-700 ring-offset-2 space-y-6 shadow-lg xl:px-7 md:px-5 px-3"
                     title={pathways.allRows[row].cards[card].hover}
                   >
                     <div className="text-md md:text-lg text-center">
@@ -130,6 +130,10 @@ function App() {
               >
                 AWS
               </a>
+              <div className="text-sm md:text-md xl:text/lg">
+                {" "}
+                credits
+              </div>
             </div>
           </div>
         </div>
