@@ -53,7 +53,7 @@
                 },
                 "3rdCard": {
                     "id": "000_3-sds-3-x-st",
-                    "hover": "Introduction to Spark Streaming with Discrete RDDs and live Experiments in Twitter with Interactive custom D3 Interactions.",
+                    "hover": "Introduction to Spark Streaming with Discrete RDDs and live Experiments in Twitter with Interactive custom D3 Interactions. [book in progress]",
                     "connections": [],
                     "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_3-sds-3-x-st",
                     "siteLink": "https://lamastex.github.io/scalable-data-science/sds/3/x/#000_3-sds-3-x-st",
@@ -80,15 +80,15 @@
                 },
                 "2ndCard": {
                     "id": "000_5-sds-2-x-geo",
-                    "hover": "",
+                    "hover": "Introduction to Scalable Geospatial Data Science with magellan, Open Street Maps, GPS Trajectory data. [book in progress]",
                     "connections": [],
-                    "bookLink": "#",
-                    "siteLink": "#",
-                    "dbcLink": "#"
+                    "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_5-sds-2-x-geo",
+                    "siteLink": "https://lamastex.github.io/scalable-data-science/sds/3/x/#000_5-sds-2-x-geo",
+                    "dbcLink": "https://github.com/lamastex/scalable-data-science/raw/master/dbcArchives/2021/000_5-sds-2-x-geo.dbc"
                 },
                 "3rdCard": {
                     "id": "000_6-sds-3-x-dl",
-                    "hover": "",
+                    "hover": "Introduction to Deep Learning with Keras, tensorflow, pytorch and PySpark. Topics: TensorFlow Basics, Artificial Neural Networks, Multilayer Deep Feed-Forward Neural Networks, Training, Convolutional Neural Networks, Recurrent Neural Networks like LSTM and GRU, Generative Networks or Patterns, Introduction to Reinforcement Learning, Real-world Operations and MLOps with PyTorch and MLflow for image classification",
                     "connections": [
                         {
                             "targetId": "000_7-sds-3-x-ddl",
@@ -96,17 +96,17 @@
                             "sourceAnchor": "bottom"
                         }
                     ],
-                    "bookLink": "#",
-                    "siteLink": "#",
-                    "dbcLink": "#"
+                    "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_6-sds-3-x-dl",
+                    "siteLink": "https://lamastex.github.io/scalable-data-science/sds/3/x/#000_6-sds-3-x-dl",
+                    "dbcLink": "https://github.com/lamastex/scalable-data-science/raw/master/dbcArchives/2021/000_6-sds-3-x-dl.dbc"
                 },
                 "4thCard": {
                     "id": "000_8-sds-3-x-pri",
-                    "hover": "",
+                    "hover": "Introduction to Privacy-aware Scalable Data Science. Topics: Data Sanitization, Algorithmic Sanitization, GDPR law and its implications for AI/ML, Pseudonymzation and Differential Privacy, Minimax Optimal Procedures for Locally Private Estimation.",
                     "connections": [],
-                    "bookLink": "#",
-                    "siteLink": "#",
-                    "dbcLink": "#"
+                    "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_8-sds-3-x-pri",
+                    "siteLink": "https://lamastex.github.io/scalable-data-science/sds/3/x/#000_8-sds-3-x-pri",
+                    "dbcLink": "https://github.com/lamastex/scalable-data-science/raw/master/dbcArchives/2021/000_8-sds-3-x-pri.dbc"
                 }
             }
         },
@@ -115,19 +115,19 @@
             "cards": {
                 "1stCard": {
                     "id": "000_7-sds-3-x-ddl",
-                    "hover": "",
+                    "hover": "Introduction to Distributed Deep Learning (DDL) with Horovod over Tensorflow/keras and Pytorch. DDL of various CNN architectures for image segmentation with horovod, MLFlow and hyper-parameter tuning through SparkTrials",
                     "connections": [],
-                    "bookLink": "#",
-                    "siteLink": "#",
-                    "dbcLink": "#"
+                    "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_7-sds-3-x-ddl",
+                    "siteLink": "https://lamastex.github.io/scalable-data-science/sds/3/x/#000_7-sds-3-x-ddl",
+                    "dbcLink": "https://github.com/lamastex/scalable-data-science/raw/master/dbcArchives/2021/000_7-sds-3-x-ddl.dbc"
                 },
                 "2ndCard": {
                     "id": "000_9-sds-3-x-trends",
-                    "hover": "",
+                    "hover": "Trends in Financial Stocks and News Events using GDELT mass media metadata and yfinance via a Scalably Streamable Trend Calculus. Exploring Events and Persons of Interest at Time Points of Trend Reversals in Commodity Oil Price. [book in progress]",
                     "connections": [],
-                    "bookLink": "#",
-                    "siteLink": "#",
-                    "dbcLink": "#"
+                    "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_9-sds-3-x-trends",
+                    "siteLink": "https://lamastex.github.io/scalable-data-science/sds/3/x/#000_9-sds-3-x-trends",
+                    "dbcLink": "https://github.com/lamastex/scalable-data-science/raw/master/dbcArchives/2021/000_9-sds-3-x-trends.dbc"
                 }
             }
         }
