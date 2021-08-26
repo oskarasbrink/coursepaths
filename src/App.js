@@ -13,7 +13,7 @@ function App() {
     <div className="w-full text-gray-100 bg-gray-100 font-mono">
       <div className="relative w-full">
         <img className="w-full" src={lamastex} alt=""></img>
-        <div className="centered w-full md:text-2xl xl:text-4xl text-xl text-center text-white font-medium subpixel-antialiased shadow-lg brightness-110">
+        <div className="centered w-full md:text-2xl xl:text-2xl text-xl text-center text-white font-medium subpixel-antialiased shadow-lg brightness-110">
           <a href="https://lamastex.github.io/scalable-data-science/sds/3/x/">
             ScaDaMaLe Course Pathways
           </a>
@@ -137,10 +137,11 @@ function App() {
                 >
                   Databricks
                 </a>
-                <div className="text-sm md:text-md xl:text/lg">
-                  {" "}
+                
+                <span className="text-sm md:text-md xl:text/lg">
+          
                   University Alliance with
-                </div>
+                </span>
                 <img
                   className="h-8 w-12 object-scale-down border border-gray-50 p-1 rounded-sm "
                   src={aws}
