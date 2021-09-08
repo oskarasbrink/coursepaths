@@ -2,8 +2,6 @@
   text-align: center;
 }
 
-
-
 .centered {
   position: absolute;
   top: 50%;
@@ -13,7 +11,19 @@
 
 .color {
   background-color: #515151;
-  
 }
 
+.five_chars {
+  width: 5ch;
+  overflow: hidden;
+  white-space: nowrap;
+}
 
+.popup {
+  z-index: 70;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+}
