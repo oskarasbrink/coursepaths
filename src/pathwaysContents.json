@@ -4,7 +4,21 @@
             "id": "1st-row",
             "cards": {
                 "1stCard": {
-                    "id": "000_1-sds-3-x",
+                    "id": "000_1-sds-3-x-spark",
+                    "hover": "Introduction to Scalable Data Science and Distributed Machine Learning. Topics: Apache Spark, Scala, RDD, map-reduce, Ingest, Extract, Load, Transform and Explore with noSQL in SparkSQL.",
+                    "connections": [
+                        {
+                            "targetId": "000_1-sds-3-x-sql",
+                            "targetAnchor": "left",
+                            "sourceAnchor": "right"
+                        }
+                    ],
+                    "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_1-sds-3-x-spark",
+                    "siteLink": "https://lamastex.github.io/scalable-data-science/sds/3/x/#000_1-sds-3-x-spark",
+                    "dbcLink": "https://github.com/lamastex/scalable-data-science/raw/master/dbcArchives/latest/000_1-sds-3-x-spark.dbc"
+                },
+                "2ndCard": {
+                    "id": "000_1-sds-3-x-sql",
                     "hover": "Introduction to Scalable Data Science and Distributed Machine Learning. Topics: Apache Spark, Scala, RDD, map-reduce, Ingest, Extract, Load, Transform and Explore with noSQL in SparkSQL.",
                     "connections": [
                         {
@@ -13,11 +27,11 @@
                             "sourceAnchor": "right"
                         }
                     ],
-                    "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_1-sds-3-x",
-                    "siteLink": "https://lamastex.github.io/scalable-data-science/sds/3/x/#000_1-sds-3-x",
-                    "dbcLink": "https://github.com/lamastex/scalable-data-science/raw/master/dbcArchives/2021/000_1-sds-3-x.dbc"
+                    "bookLink": "https://lamastex.github.io/ScaDaMaLe/000_1-sds-3-x-sql",
+                    "siteLink": "https://lamastex.github.io/scalable-data-science/sds/3/x/#000_1-sds-3-x-sql",
+                    "dbcLink": "https://github.com/lamastex/scalable-data-science/raw/master/dbcArchives/latest/000_1-sds-3-x-sql.dbc"
                 },
-                "2ndCard": {
+                "3ndCard": {
                     "id": "000_2-sds-3-x-ml",
                     "hover": "Introduction to Dirstributed Simulation; various un/supervised ML Algorithms; Linear Algebra; Vertex Programming using SparkML, GraphX and piped-RDDs.",
                     "connections": [
